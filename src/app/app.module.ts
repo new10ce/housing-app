@@ -11,6 +11,7 @@ import { PropertyListComponent } from './property-list/property-list.component';
 import { NavigationComponent } from './navigation/navigation.component';
 import { SerchComponent } from './serch/serch.component';
 import { PropertyCardComponent } from './property-card/property-card.component';
+import { PropertyService } from "./property.service";
 
 const appRoutes: Routes = [
   { path: '', component:PropertyListComponent},
@@ -29,14 +30,16 @@ const appRoutes: Routes = [
     PropertyListComponent,
     NavigationComponent,
     SerchComponent,
-    PropertyCardComponent,
+    PropertyCardComponent
   ],
   imports: [
     BrowserModule,
     RouterModule.forRoot(appRoutes),
     HttpClientModule
   ],
-  providers: [],
+  providers: [
+    PropertyService
+  ],
   bootstrap: [AppComponent],
 })
 export class AppModule {}
