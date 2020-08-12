@@ -4,7 +4,7 @@
       <img
         alt="property image"
         class="card-img-top"
-        src="assets/images/apartment-1.png"
+        src="assets/images/{{ propertydata.propertyImg }}.png"
       />
     </div>
     <ul class="list-inline member-icons animate text-center">
@@ -21,16 +21,16 @@
     </ul>
   </div>
   <div class="card-body p-1">
-    <h1>4 BHK Aparment</h1>
-    <span>in Erose Flatapp-property-card,</span> New York
+    <h1>{{ propertydata.title }}</h1>
+    <span>{{ propertydata.address }}</span>
     <h6>
-      Unfurnished | Ready to Move
+      {{ propertydata.type }}
     </h6>
     <hr class="mt-0" />
     <h6>
       Price:
-      <span class="font-light">5000 USD.</span> | Area:
-      <span class="font-light">1200 Sq Ft </span>
+      <span class="font-light">{{ propertydata.price }}</span> | Area:
+      <span class="font-light">{{ propertydata.area }}</span>
     </h6>
   </div>
 </div>

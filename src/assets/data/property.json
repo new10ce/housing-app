@@ -1,6 +1,6 @@
 [
   {
-    "property-img": "assets/images/duplex-2.png",
+    "propertyImg": "duplex-2",
     "title": "2 BHK Duplex",
     "address": "in Erose Flatapp-property-card, New York",
     "type": "Unfurnished | Ready to Move",
@@ -8,7 +8,7 @@
     "area": "1200 Sq Ft "
   },
   {
-    "property-img": "assets/images/house-1.png",
+    "propertyImg": "house-1",
     "title": "1 BHK House",
     "address": "in Erose Flatapp-property-card, New York",
     "type": "Unfurnished | Ready to Move",
@@ -16,7 +16,7 @@
     "area": "1200 Sq Ft "
   },
   {
-    "property-img": "assets/images/house-hill-2.png",
+    "propertyImg": "house-hill-2",
     "title": "House Hill Duplex",
     "address": "in Erose Flatapp-property-card, New York",
     "type": "Unfurnished | Ready to Move",
@@ -24,7 +24,15 @@
     "area": "1200 Sq Ft "
   },
   {
-    "property-img": "assets/images/duplex-2.png",
+    "propertyImg": "duplex-2",
+    "title": "2 BHK Duplex",
+    "address": "in Erose Flatapp-property-card, New York",
+    "type": "Unfurnished | Ready to Move",
+    "price": "3500 USD",
+    "area": "1200 Sq Ft "
+  },
+  {
+    "propertyImg": "duplex-2",
     "title": "2 BHK Duplex",
     "address": "in Erose Flatapp-property-card, New York",
     "type": "Unfurnished | Ready to Move",
@@ -32,31 +40,23 @@
     "area": "1200 Sq Ft "
   },
   {
-    "property-img": "assets/images/duplex-2.png",
-    "title": "2 BHK Duplex",
-    "address": "in Erose Flatapp-property-card, New York",
-    "type": "Unfurnished | Ready to Move",
-    "price": "5000 USD",
-    "area": "1200 Sq Ft "
-  },
-  {
-    "property-img": "assets/images/house-1.png",
+    "propertyImg": "house-1",
     "title": "1 BHK House",
     "address": "in Erose Flatapp-property-card, New York",
     "type": "Unfurnished | Ready to Move",
     "price": "5000 USD",
-    "area": "1200 Sq Ft "
+    "area": "100 Sq Ft "
   },
   {
-    "property-img": "assets/images/duplex-2.png",
+    "propertyImg": "duplex-2",
     "title": "2 BHK Duplex",
     "address": "in Erose Flatapp-property-card, New York",
     "type": "Unfurnished | Ready to Move",
-    "price": "5000 USD",
+    "price": "1000 USD",
     "area": "1200 Sq Ft "
   },
   {
-    "property-img": "assets/images/house-1.png",
+    "propertyImg": "house-1",
     "title": "1 BHK House",
     "address": "in Erose Flatapp-property-card, New York",
     "type": "Unfurnished | Ready to Move",

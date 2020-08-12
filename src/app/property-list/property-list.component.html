@@ -1,8 +1,8 @@
 <app-serch></app-serch>
 <div class="row">
-  <div class="col-lg-4 col-sm-6" *ngFor="let p of property">
+  <div class="col-lg-4 col-sm-6" *ngFor="let property of properties">
     <div class="shadow-lg p-3 mb-3 bg-white rounded">
-      <app-property-card></app-property-card>
+      <app-property-card [propertydata]="property"></app-property-card>
     </div>
   </div>
 </div>

@@ -9,14 +9,14 @@ import { Property } from '../property';
 })
 export class PropertyListComponent implements OnInit {
 
-  public property: Property[] = [];
+  public properties: Property[] = [];
 
   constructor(private service:  PropertyService) { }
 
   ngOnInit(): void {
     this.service.getAllProperties().subscribe(data => {
-      this.property = data;
-      console.log(this.property);
+      this.properties = data;
+      console.log(this.properties);
     }, error => {
       console.log("error");
     })
